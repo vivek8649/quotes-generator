@@ -1,0 +1,21 @@
+<div>
+  <h1 class="header-text"> {{ header }}</h1>
+  <mat-divider class="divider"></mat-divider>
+</div>
+<div class="quote-list">
+  <mat-selection-list #quoteBox [multiple]="false">
+    <mat-list-option [ngStyle]="getColor()" *ngFor="let shoe of quotes">
+      <div class="quote-list-item">
+        <div class="quote-item">
+          <div mat-line>
+            <div class="quote-text"> {{shoe.quote }} </div>
+          </div>
+          <div mat-line class="quote-author"> {{shoe.author}}</div>
+          <div mat-line>
+            <mat-divider class="divider"></mat-divider>
+          </div>
+        </div>
+      </div>
+    </mat-list-option>
+  </mat-selection-list>
+</div>

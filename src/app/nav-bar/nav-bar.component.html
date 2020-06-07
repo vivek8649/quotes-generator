@@ -1,0 +1,14 @@
+<mat-toolbar color="accent">
+  <mat-toolbar-row>
+    <div class="site-home">
+      <mat-icon class="site-home-icon" aria-hidden="false" aria-label="icon">emoji_people</mat-icon>
+      <h1 class="site-home-header">Inspire </h1>
+    </div>
+    <div class="menus">
+      <a mat-button [routerLink]="'/home'"> Home </a>
+      <a mat-button [routerLink]="'/wbu'" routerLinkActive="active"> How are you today? </a>
+      <a mat-button [routerLink]="'/authors'" routerLinkActive="active"> Authors </a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>

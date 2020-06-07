@@ -1,0 +1,16 @@
+.header-wbu{
+  text-align: center;
+  font-family: monospace;
+  margin-top: 5%;
+}
+
+.grid {
+  padding: 70px;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.example-full-width {
+  width: 30%;
+}

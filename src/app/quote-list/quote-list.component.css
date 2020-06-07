@@ -1,0 +1,38 @@
+/* .quote-text{
+  padding: 10px;
+}
+
+.quote-author{
+  padding: 3px;
+}
+
+.divider{
+  padding: 2px;;
+} */
+.quote-list {
+  margin:0 auto;
+  max-width: 800px;
+  padding: 10px;
+}
+
+.quote-author {
+  font-style: italic;
+  font-family: monospace;
+}
+
+.quote-text{
+  text-overflow: unset;
+  white-space: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-text {
+  font-family: monospace;
+  padding: 20px;;
+  text-align: center;
+  color: coral;
+  font-weight: bolder;
+}
+.divider{
+  width: inherit;
+}

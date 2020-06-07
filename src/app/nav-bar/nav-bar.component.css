@@ -1,0 +1,17 @@
+h1 {
+  font-weight: bold;
+  color: black;
+  font-family: monospace;
+}
+.menus {
+  flex: 1 1 auto;
+  text-align: center;
+}
+.site-home {
+  margin-left: 10px;
+}
+.site-home-header {
+  display: inline-block;
+}
+.site-home-icon {
+}

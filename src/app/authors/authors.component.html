@@ -1,0 +1,15 @@
+<form class="header-wbu">
+  <h1 class="header-wbu"> Who is your favorite author?</h1>
+  <mat-form-field class="example-full-width" color="accent">
+    <mat-label>Author's Name</mat-label>
+    <input matInput placeholder="Ex. Paulo Coelho" (keydown.enter)="navigateToQuoteList($event)">
+  </mat-form-field>
+</form>
+<div class="grid">
+  <mat-grid-list cols="3" rowHeight="130">
+    <mat-grid-tile class="cursor" [routerLink]="['/authors',author.id]" *ngFor="let author of authors"
+      [colspan]="author.cols" [rowspan]="author.rows" [style.background]="author.color">
+      {{author.text}}
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
