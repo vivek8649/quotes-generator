@@ -12,7 +12,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
-import { WhatAboutYouComponent } from './what-about-you/what-about-you.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { QuoteListComponent } from './quote-list/quote-list.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
@@ -29,7 +28,6 @@ import {MatInputModule} from '@angular/material/input';
     AppComponent,
     HomeComponent,
     NavBarComponent,
-    WhatAboutYouComponent,
     QuoteListComponent,
     WaitComponent,
     AuthorsComponent
