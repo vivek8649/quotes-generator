@@ -1,33 +1,9 @@
-import { Component, OnInit, AfterViewInit, ChangeDetectorRef } from '@angular/core';
-import { WaitService } from './shared/services/wait.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app.component.html'
 })
-export class AppComponent implements OnInit, AfterViewInit {
-  title = 'quotes-generator';
-  public showLoader: boolean;
-
-  constructor(
-    private waitService: WaitService,
-    private cdr: ChangeDetectorRef) {
-    this.showLoader = true;
-  }
-
-  public ngOnInit() {
-    // this.cdr.detectChanges();
-    this.waitService.status.subscribe((isLoading: boolean) => {
-      setTimeout(() => {
-        this.showLoader = isLoading;
-      });
-    });
-
-  }
-
-  public ngAfterViewInit() {
-    this.cdr.detectChanges();
-  }
-
+export class AppComponent {
+  title = 'tic-tac-toe';
 }
