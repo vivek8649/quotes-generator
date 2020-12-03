@@ -1,12 +1,12 @@
 import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, ChangeDetectorRef, AfterViewChecked } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { FeelEnum } from '../shared/model/fee-enum';
 import { QuotesService } from '../shared/services/quotes.service';
 import { PaginatedQuotesListResponse } from '../shared/model/paginated-quotes-list-response';
 import { Quote } from '../shared/model/quote';
 import { WaitService } from '../shared/services/wait.service';
 import { finalize } from 'rxjs/operators';
 import { QuoteListQueryParam } from '../shared/model/quote-list-query-param';
+import { FeelEnum } from '../shared/model/fee-enum';
 
 @Component({
   selector: 'app-quote-list',
