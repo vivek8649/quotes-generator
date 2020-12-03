@@ -1,6 +1,6 @@
 # QuotesGenerator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+Access app here -  https://my-quotes-generator.herokuapp.com/home
 
 ## Development server
 
